@@ -7,7 +7,6 @@ import 'rxjs/add/operator/map';
     moduleId: module.id,
     selector: 'profile',
     templateUrl: 'profile.component.html',
-    providers: [ GithubService ]
 })
 export class ProfileComponent {
   user:any = [];
