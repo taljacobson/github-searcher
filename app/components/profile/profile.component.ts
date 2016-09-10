@@ -6,7 +6,7 @@ import 'rxjs/add/operator/map';
 @Component({
     moduleId: module.id,
     selector: 'profile',
-    templateUrl: 'profile.component.html',
+    templateUrl: 'profile.component.html'
 })
 export class ProfileComponent {
   user:any = [];
